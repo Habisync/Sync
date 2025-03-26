@@ -1,0 +1,28 @@
+{
+  "name": "dawn-theme",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "shopify-push": "shopify theme push",
+    "test": "jest --coverage",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "vite": "^4.0.0",
+    "@shopify/theme-sections": "^1.0.0",
+    "@shopify/theme-a11y": "^1.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.0.0",
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0",
+    "prettier": "^2.8.0",
+    "jest": "^29.0.0"
+  }
+}

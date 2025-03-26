@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page_title }} - Sync Cosmic</title>
+  {{ content_for_header }}
+  <link rel="stylesheet" href="{{ 'theme.css' | asset_url }}">
+  <script src="{{ 'theme.js' | asset_url }}" defer></script>
+</head>
+<body data-nebula="blue">
+  {% section 'header' %}
+  {{ content_for_layout }}
+  {% section 'footer' %}
+</body>
+</html>
